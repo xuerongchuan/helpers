@@ -68,8 +68,7 @@ concat product algo: W: [2e, w]
 作者定义了一个attention函数，输入是矩阵q_和q的concat或者点积。输出矩阵每行结果为为$\sum a_{ij}q_j$
 
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDI5Njc4LC0xNjg4NTkzNDg4LC0xMz
-A0OTQ1NzA0XX0=
+eyJoaXN0b3J5IjpbLTk4OTY0NzE2OCwtMTY4ODU5MzQ4OCwtMT
+MwNDk0NTcwNF19
 -->
