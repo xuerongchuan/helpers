@@ -65,8 +65,39 @@ concat product algo: W: [2e, w]
 ### attention network
 ![image.png](https://upload-images.jianshu.io/upload_images/8161042-379efbe73377e345.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![](https://upload-images.jianshu.io/upload_images/8161042-fc9a2869f14a149d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-作者定义了一个attention函数，输入是矩阵q_和q的concat或者点积。输出矩阵为$\sum a_{ij}q_j$
+作者定义了一个attention函数，输入是矩阵q_和q的concat或者点积。输出矩阵每行结果为为$\sum a_{ij}q_j$
+```
+   def _attention_MLP(self, q_):
+       with tf.name_scope("attention_MLP"):
+            b = tf.shape(q_)[0]
+            n = tf.shape(q_)[1]
+            r = (self.algorithm + 1)*self.embedding_size
+
+            MLP_output = tf.matmul(tf.reshape(q_,[-1,r]), self.W) + self.b #(b*n, e or 2*e) * (e or 2*e, w) + (1, w)
+            if self.activation == 0:
+                MLP_output = tf.nn.relu( MLP_output )
+            elif self.activation == 1:
+                MLP_output = tf.nn.sigmoid( MLP_output )
+            elif self.activation == 2:
+                MLP_output = tf.nn.tanh( MLP_output )
+
+            A_ = tf.reshape(tf.matmul(MLP_output, self.h),[b,n]) #(b*n, w) * (w, 1) => (None, 1) => (b, n)
+
+            # softmax for not mask features
+            exp_A_ = tf.exp(A_)
+            num_idx = tf.reduce_sum(self.num_idx, 1)
+            mask_mat = tf.sequence_mask(num_idx, maxlen = n, dtype = tf.float32) # (b, n)
+            exp_A_ = mask_mat * exp_A_
+            exp_sum = tf.reduce_sum(exp_A_, 1, keep_dims=True)  # (b, 1)
+            exp_sum = tf.pow(exp_sum, tf.constant(self.beta, tf.float32, [1]))
+
+            A = tf.expand_dims(tf.div(exp_A_, exp_sum),2) # (b, n, 1)
+
+            return tf.reduce_sum(A * self.embedding_q_, 1)      
+  ```
+          
+        
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg1OTM0ODgsLTEzMDQ5NDU3MDRdfQ
-==
+eyJoaXN0b3J5IjpbNTE4MDYxMTY4LC0xNjg4NTkzNDg4LC0xMz
+A0OTQ1NzA0XX0=
 -->
