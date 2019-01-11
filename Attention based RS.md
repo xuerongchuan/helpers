@@ -65,7 +65,8 @@ concat product algo: W: [2e, w]
 ### attention network
 ![image.png](https://upload-images.jianshu.io/upload_images/8161042-379efbe73377e345.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![](https://upload-images.jianshu.io/upload_images/8161042-fc9a2869f14a149d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-作者定义了一个attention函数，输入是矩阵q_和q的concat或者点积。输出为
+作者定义了一个attention函数，输入是矩阵q_和q的concat或者点积。输出矩阵为$\sum a_{ij}q_j$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ5NDU3MDRdfQ==
+eyJoaXN0b3J5IjpbLTE2ODg1OTM0ODgsLTEzMDQ5NDU3MDRdfQ
+==
 -->
