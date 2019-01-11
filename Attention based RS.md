@@ -3,17 +3,17 @@
 **NAIS Neural Attentive Item Similarity Model for Recommendation-TKDE2018**
 
 这篇论文运用attention机制的地方在计算项目相似度，作者认为用户的历史商品对于推荐的目标商品所产生的影响是不同的，所以在计算用户对商品的预测评分时，根据用户的历史商品得到的用户特征应该根据影响因子作权重加和。在使用传统的softmax时发现效果不好，因为要计算影响因子的数量太大，最后得出的概率分布并不好，所以在softmax的分母添加了指数衰减因子              
-##### 公式
+###  公式
 ![](https://upload-images.jianshu.io/upload_images/8161042-0e6a5d697ed8ffec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![](https://upload-images.jianshu.io/upload_images/8161042-fc9a2869f14a149d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 **损失函数：**
 ![](https://upload-images.jianshu.io/upload_images/8161042-d655c1d59dd8e255.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-##### 结构图                                                                                                                                                                                      
+### 结构图                                                                                                                                                                                      
 ![NAIS结构图](https://upload-images.jianshu.io/upload_images/8161042-11c94cf1ef625538.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-#####数据集
+### 数据集
 ![](https://upload-images.jianshu.io/upload_images/8161042-ec00ff4af8fcac75.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-#####实验结果
+### 实验结果
 ![](https://upload-images.jianshu.io/upload_images/8161042-567f04d43049eae3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ### 相关工作
 这部分作者介绍的很迷，花了几大段写推荐系统的任务从显示评分到隐式评分，分别采用不同的度量方式。介绍了一个最先进的排序方法，是对抗个性化排序。具体论文没有看，以后需要再看。然后介绍了深度学习在推荐系统的应用，分了两个部分，一个是学习特征表示，另一个是学习scoring function。关于第二种介绍了三篇比较先进的论文。最后讨论了另一个采用attention的论文，这篇论文是基于用户的，并且强调了自己论文的亮点，想出了一个解决softmax计算大规模概率分布的方法。
@@ -66,7 +66,6 @@ concat product algo: W: [2e, w]
 ![image.png](https://upload-images.jianshu.io/upload_images/8161042-379efbe73377e345.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![](https://upload-images.jianshu.io/upload_images/8161042-fc9a2869f14a149d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjQ5ODEyNzFdfQ==
+eyJoaXN0b3J5IjpbLTkxMDU3MDUzN119
 -->
