@@ -11,8 +11,8 @@ id|用户id，自增，数值型，唯一标识
 -|-
 id|自增，唯一标识
 userId|用户id
-parameter|参数字典
-**parameter**：{'algoId'：<算法id>,'<参数名>'：<参数值>···}
+parameter|参数字典列表
+**parameter**：[{'algoId'：<算法1>,'<参数名>'：<参数值>···},{'algoId'：<算法2>,'<参数名>'：<参数值>···}]
 #### 算法表（algoTable）
 字段名|字段含义
 -|-
@@ -27,5 +27,5 @@ type|算法类型，{0，1，2} 分别代表离线，近线，在线
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NjE0NDI2NCwxNzgyODg3NDc4XX0=
+eyJoaXN0b3J5IjpbMTk1MzA3NzA1NywxNzgyODg3NDc4XX0=
 -->
