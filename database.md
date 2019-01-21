@@ -3,9 +3,8 @@
 #### 用户表
 字段名|字段含义
 -|--
-id|自增，数值型，唯一标识
-userId|用户id， 数值型
-workId|用户建立的项目id
+id|用户id，自增，数值型，唯一标识
+
 
 #### 项目表
 字段名|字段含义
@@ -20,5 +19,5 @@ parameter|参数字典
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjkxMzE0OSwxNzgyODg3NDc4XX0=
+eyJoaXN0b3J5IjpbLTU3NTkyMjM1MiwxNzgyODg3NDc4XX0=
 -->
