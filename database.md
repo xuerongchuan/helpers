@@ -18,12 +18,14 @@ parameter|参数字典
 -|-
 id|算法id，自增，唯一标识
 parameter|默认参数字典
-type|算法类型
+type|算法类型，{0，1，2} 分别代表离线，近线，在线
+
+**parameter**：{'<参数名>'：<默认参数值列表>}
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5MDU4NzI1LDE3ODI4ODc0NzhdfQ==
+eyJoaXN0b3J5IjpbMTc1NjE0NDI2NCwxNzgyODg3NDc4XX0=
 -->
