@@ -13,12 +13,12 @@ workId|用户建立的项目id
 id|自增，唯一标识
 userId|用户id
 parameter|参数字典
-**parameter**：{'algoId'：<算法i>}
+**parameter**：{'algoId'：<算法id>,'<参数名>'：<参数值>···}
 #### 算法表
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDExMTYwNywxNzgyODg3NDc4XX0=
+eyJoaXN0b3J5IjpbMTA2NjkxMzE0OSwxNzgyODg3NDc4XX0=
 -->
