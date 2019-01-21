@@ -25,7 +25,6 @@ type|算法类型，{0，1，2} 分别代表离线，近线，在线
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzA3NzA1NywxNzgyODg3NDc4XX0=
+eyJoaXN0b3J5IjpbODY4MzQyNDY5LDE3ODI4ODc0NzhdfQ==
 -->
