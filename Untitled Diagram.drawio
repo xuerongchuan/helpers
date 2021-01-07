@@ -1,6 +1,6 @@
-<mxfile modified="2021-01-07T08:40:19.201Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="W69dnAsrxf9pK5BZXM8A" version="14.1.8" type="github">
+<mxfile modified="2021-01-07T08:59:51.540Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="xlwzTNjlx7ZtMgaYUjj6" version="14.1.8" type="github">
   <diagram id="dOFuiFwntcqT5JKXSm8d" name="Page-1">
-    <mxGraphModel dx="865" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="602" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -145,6 +145,30 @@
         </mxCell>
         <mxCell id="rdN8tX-XrbKSmI1yQe68-53" value="对好友分享的影集更愿意评论？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rdN8tX-XrbKSmI1yQe68-54" value="推荐流还是垂类？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="592" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rdN8tX-XrbKSmI1yQe68-55" value="用户更愿意在垂类这种分类性强的场景下评论吗" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="514" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rdN8tX-XrbKSmI1yQe68-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rdN8tX-XrbKSmI1yQe68-56" target="rdN8tX-XrbKSmI1yQe68-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rdN8tX-XrbKSmI1yQe68-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rdN8tX-XrbKSmI1yQe68-56" target="rdN8tX-XrbKSmI1yQe68-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rdN8tX-XrbKSmI1yQe68-56" value="用户会关注自己的好友吗" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rdN8tX-XrbKSmI1yQe68-57" value="用户一度人脉和关注人交集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rdN8tX-XrbKSmI1yQe68-59" value="互关和好友的关系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rdN8tX-XrbKSmI1yQe68-61" value="用户多次评论同一个用户的影集，是否代表两人有关？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
