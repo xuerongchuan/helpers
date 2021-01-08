@@ -1,4 +1,4 @@
-<mxfile modified="2021-01-07T08:59:51.540Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="xlwzTNjlx7ZtMgaYUjj6" version="14.1.8" type="github">
+<mxfile modified="2021-01-08T06:25:00.403Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="VEN388dBN-qJrkWlgWRe" version="14.1.8" type="github">
   <diagram id="dOFuiFwntcqT5JKXSm8d" name="Page-1">
     <mxGraphModel dx="602" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="235" y="910" width="722.5" height="440" as="geometry" />
         </mxCell>
         <mxCell id="rdN8tX-XrbKSmI1yQe68-13" value="设计一个推荐流，监听用户关注用户发布影集情况，关注用户发布后将发布的新影集插入到推荐流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="260" width="220" height="80" as="geometry" />
+          <mxGeometry x="320" y="50" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rdN8tX-XrbKSmI1yQe68-14" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="410" width="30" height="60" as="geometry" />
@@ -169,6 +169,18 @@
         </mxCell>
         <mxCell id="rdN8tX-XrbKSmI1yQe68-61" value="用户多次评论同一个用户的影集，是否代表两人有关？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1150" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rdN8tX-XrbKSmI1yQe68-62" value="如何利用用户关系？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1530" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rdN8tX-XrbKSmI1yQe68-63" value="评论与关注的关系" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="990" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rdN8tX-XrbKSmI1yQe68-64" value="用户关注行为思考" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rdN8tX-XrbKSmI1yQe68-65" value="可能有用的尝试" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="265" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
