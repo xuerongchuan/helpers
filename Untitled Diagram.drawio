@@ -1,6 +1,6 @@
-<mxfile modified="2021-01-20T02:43:10.875Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="DG7Kzi_SpaKD0s2yPC1y" version="14.1.8" type="github" pages="3">
+<mxfile modified="2021-01-20T09:52:55.327Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="58NXcCf_cy1sQV9zcL12" version="14.2.4" type="github" pages="3">
   <diagram id="dOFuiFwntcqT5JKXSm8d" name="Page-1">
-    <mxGraphModel dx="696" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -429,18 +429,51 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XCMhOwfdfmZJwEUG3RQD" name="交叉特征分析">
-    <mxGraphModel dx="387" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="YCneD1ASrfSC1GxNxK6B-0" />
         <mxCell id="YCneD1ASrfSC1GxNxK6B-1" parent="YCneD1ASrfSC1GxNxK6B-0" />
-        <mxCell id="YCneD1ASrfSC1GxNxK6B-2" value="交叉特征的后验频率作为概率赋值给具有该特征的实体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YCneD1ASrfSC1GxNxK6B-1">
-          <mxGeometry x="320" y="120" width="140" height="70" as="geometry" />
+        <mxCell id="YCneD1ASrfSC1GxNxK6B-2" value="交叉特征的后验频率作为概率赋值给具有该特征的实体" style="rounded=0;whiteSpace=wrap;html=1;" parent="YCneD1ASrfSC1GxNxK6B-1" vertex="1">
+          <mxGeometry x="240" y="40" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="YCneD1ASrfSC1GxNxK6B-4" value="特征A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YCneD1ASrfSC1GxNxK6B-1">
-          <mxGeometry x="430" y="230" width="40" height="20" as="geometry" />
+        <mxCell id="YCneD1ASrfSC1GxNxK6B-4" value="特征A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="YCneD1ASrfSC1GxNxK6B-1" vertex="1">
+          <mxGeometry x="360" y="220" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="YCneD1ASrfSC1GxNxK6B-5" value="特征A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YCneD1ASrfSC1GxNxK6B-1">
-          <mxGeometry x="430" y="270" width="40" height="20" as="geometry" />
+        <mxCell id="YCneD1ASrfSC1GxNxK6B-5" value="特征D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="YCneD1ASrfSC1GxNxK6B-1" vertex="1">
+          <mxGeometry x="360" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o5c7Y9_hGRXvsQYUINZp-0" value="特征C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YCneD1ASrfSC1GxNxK6B-1">
+          <mxGeometry x="360" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o5c7Y9_hGRXvsQYUINZp-1" value="特征B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YCneD1ASrfSC1GxNxK6B-1">
+          <mxGeometry x="360" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o5c7Y9_hGRXvsQYUINZp-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="YCneD1ASrfSC1GxNxK6B-1">
+          <mxGeometry x="290" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o5c7Y9_hGRXvsQYUINZp-3" value="特征E" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YCneD1ASrfSC1GxNxK6B-1">
+          <mxGeometry x="440" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o5c7Y9_hGRXvsQYUINZp-4" value="P(E/A)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YCneD1ASrfSC1GxNxK6B-1">
+          <mxGeometry x="440" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o5c7Y9_hGRXvsQYUINZp-5" value="P(E/B)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YCneD1ASrfSC1GxNxK6B-1">
+          <mxGeometry x="440" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o5c7Y9_hGRXvsQYUINZp-6" value="P(E/C)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YCneD1ASrfSC1GxNxK6B-1">
+          <mxGeometry x="440" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o5c7Y9_hGRXvsQYUINZp-7" value="P(E/D)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YCneD1ASrfSC1GxNxK6B-1">
+          <mxGeometry x="440" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o5c7Y9_hGRXvsQYUINZp-8" value="特征E" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YCneD1ASrfSC1GxNxK6B-1">
+          <mxGeometry x="200" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o5c7Y9_hGRXvsQYUINZp-9" value="max(P(E/X)) where X\(\in\)(ABCD)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YCneD1ASrfSC1GxNxK6B-1">
+          <mxGeometry x="150" y="240" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o5c7Y9_hGRXvsQYUINZp-10" value="FM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YCneD1ASrfSC1GxNxK6B-1">
+          <mxGeometry x="70" y="430" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
